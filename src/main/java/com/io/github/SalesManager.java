@@ -6,5 +6,13 @@
 
 package com.io.github;
 
-public class SalesManager {
+public class SalesManager extends Employee {
+    float commission;
+
+    public SalesManager(String empName, float salary, float bonus, float commission) {
+        super(empName, salary, bonus);
+        this.commission = commission;
+    }
+
 }
+
