@@ -14,5 +14,12 @@ public class SalesManager extends Employee {
         this.commission = commission;
     }
 
+    @Override
+    public float calculateSalary() {
+        return super.calculateSalary() + commission;
+
+    }
+
 }
+
 
