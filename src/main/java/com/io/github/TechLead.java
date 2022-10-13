@@ -6,5 +6,8 @@
 
 package com.io.github;
 
-public class TechLead {
+public class TechLead extends Employee {
+    public TechLead(String empName, float salary, float bonus) {
+        super(empName, salary, bonus);
+    }
 }
