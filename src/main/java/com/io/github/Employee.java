@@ -7,4 +7,9 @@
 package com.io.github;
 
 public class Employee {
+    private String empName;
+    private float salary;
+    private float bonus;
+
+
 }
